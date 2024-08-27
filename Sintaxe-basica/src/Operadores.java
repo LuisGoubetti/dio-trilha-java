@@ -25,7 +25,7 @@ public class Operadores {
 		System.out.println(numero);
 		System.out.println(numero);
 		
-		int numeroNovo = 5;
+		int numeroNovo = 5; 
 		numeroNovo++; //incrementa ou decrementa um a partir de onde está
 		System.out.println(--numeroNovo);
 		
