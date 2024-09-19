@@ -1,5 +1,4 @@
 package com.controle.fluxo;
-
 import java.util.Scanner;
 
 public class Contador {
@@ -26,10 +25,10 @@ public class Contador {
 		
 		int contagem = parametro2 - parametro1;
 		
-		if (parametro1>parametro2) 
+		if (parametro1 > parametro2) 
 			throw new ParametrosInvalidosException();
 		else {
-			for (int i=0; i < contagem; i++ ) {
+			for (int i = 0; i < contagem; i++ ) {
 				System.out.println("Contagem: " + (i+1));
 			}		
 		}
