@@ -1,3 +1,5 @@
+### Exemplo de Diagrama UML (Mermaid)
+```mermaid
 classDiagram
     class Iphone {
     }
@@ -28,3 +30,4 @@ classDiagram
     Iphone <|-- ReprodutorMusical
     Iphone <|-- Navegador
     Iphone <|-- aparelhoTelefonico
+```
